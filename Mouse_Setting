@@ -1,0 +1,19 @@
+# Lower volume on thumb wheel down button
+"xte 'key XF86AudioLowerVolume'"
+b:8
+
+# Raise volume on thumb wheel up button
+"xte 'key XF86AudioRaiseVolume'"
+b:9
+
+# GO back one page on scroll wheel left button
+"xte 'keydown Alt_L' 'key Left' 'keyup Alt_L' "
+b:6 + Release
+
+# Go forward one page on scroll wheel right button
+"xte 'keydown Alt_L' 'key Right' 'keyup Alt_L' "
+b:7 + Release
+
+# Spread all windows on thumb button
+"xdotool key super+w"
+b:10 + Release
