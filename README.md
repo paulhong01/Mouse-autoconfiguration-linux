@@ -20,3 +20,10 @@ ButtonRelease event, serial 37, synthetic NO, window 0x4200001,
     state 0x100, button 1, same_screen YES
 ```   
 The mouse button is 1.
+
+
+## Mouse Setting
+In Mouse_Setting, it corresponds the mouse buttons to the desired command.
+
+## Mouse_Configuration
+Mouse_Configuration automatically configures the mouse to the desired actions. You can run Mouse_Configuration to set the initial setting and modify Mouse_Setting to your desired action.
